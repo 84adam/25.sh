@@ -2,7 +2,7 @@
 
 # 25.sh -- Top 25 Cryptocurrencies by Market Cap -- Via coinmarketcap.com 
 
-# ************************************* GET DATA ******************************************** #
+# ******************************* GET DATA USING CURL *************************************** #
 # Grab Top 25 Coins from https://api.coinmarketcap.com/v1/ticker/?limit=25
 # Output to 'top25.json' file in current directory
 
@@ -21,6 +21,7 @@ mapfile -t aSYM < <( jq -r '.[] | .symbol' top25.json )
 mapfile -t aUSD < <( jq -r '.[] | .price_usd' top25.json )
 mapfile -t aMCAP < <( jq -r '.[] | .market_cap_usd' top25.json )
 
+# **************************** PRINT DATA USING PRINTF ************************************** #
 # Print output, iterating through each 25-item array using 'seq'; number line outputs with 'nl'
 
 for var in `seq 0 24`;
