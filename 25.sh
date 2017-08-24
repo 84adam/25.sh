@@ -2,7 +2,7 @@
 
 # 25.sh -- Top 25 Cryptocurrencies by Market Cap -- Via coinmarketcap.com 
 
-# ****************************** GET DATA ************************************* #
+# ************************************* GET DATA ******************************************** #
 # Grab Top 25 Coins from https://api.coinmarketcap.com/v1/ticker/?limit=25
 # Output to 'top25.json' file in current directory
 
