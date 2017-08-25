@@ -23,39 +23,35 @@ EXAMPLE OUTPUT:
 
 ```
 $ ./25.sh
-/// ... UPDATING PRICES ... ///
- 
-     1. Bitcoin (BTC) - $4140.29 USD - $68408819266.0 MCAP
-     2. Ethereum (ETH) - $318.169 USD - $29972887936.0 MCAP
-     3. Bitcoin Cash (BCH) - $677.527 USD - $11195049632.0 MCAP
-     4. Ripple (XRP) - $0.255154 USD - $9783584632.0 MCAP
-     5. Litecoin (LTC) - $52.2927 USD - $2750259118.0 MCAP
-     6. IOTA (MIOTA) - $0.83713 USD - $2326828186.0 MCAP
-     7. NEM (XEM) - $0.248939 USD - $2240451000.0 MCAP
-     8. Dash (DASH) - $292.04 USD - $2193238499.0 MCAP
-     9. NEO (NEO) - $39.7016 USD - $1985080000.0 MCAP
-    10. Ethereum Classic (ETC) - $15.3554 USD - $1456031612.0 MCAP
-    11. Monero (XMR) - $93.116 USD - $1392421883.0 MCAP
-    12. BitConnect (BCC) - $127.841 USD - $831547278.0 MCAP
-    13. OmiseGo (OMG) - $8.10775 USD - $797089313.0 MCAP
-    14. Qtum (QTUM) - $11.7387 USD - $692583300.0 MCAP
-    15. Stratis (STRAT) - $5.98618 USD - $589728291.0 MCAP
-    16. Zcash (ZEC) - $227.846 USD - $461873747.0 MCAP
-    17. Waves (WAVES) - $4.58108 USD - $458108000.0 MCAP
-    18. EOS (EOS) - $1.40573 USD - $423750873.0 MCAP
-    19. TenX (PAY) - $3.57927 USD - $374611087.0 MCAP
-    20. BitShares (BTS) - $0.136954 USD - $355844839.0 MCAP
-    21. Lisk (LSK) - $3.12752 USD - $348130225.0 MCAP
-    22. Tether (USDT) - $1.00029 USD - $319593973.0 MCAP
-    23. Steem (STEEM) - $1.23459 USD - $296138987.0 MCAP
-    24. Binance Coin (BNB) - $2.5868 USD - $258680000.0 MCAP
-    25. Iconomi (ICN) - $2.96159 USD - $257363207.0 MCAP
- 
-VIA: http://coinmarketcap.com
+///// Downloading the latest price data from http://coinmarketcap.com ... /////
 
+   RANK COIN              SYMBOL PRICE        MARKET CAP        BTC PRICE         24HR CH      7DAY CH
+
+     1. Bitcoin           BTC    $ 4347.22    $ 71833680641.0   B 1.0            4.31 pct     0.61 pct
+     2. Ethereum          ETH    $ 327.153    $ 30826691645.0   B 0.0750039      2.83 pct     7.83 pct
+     3. Bitcoin Cash      BCH    $ 636.819    $ 10527342452.0   B 0.145998      -5.54 pct    35.27 pct
+     4. Ripple            XRP    $ 0.214215   $  8213826089.0   B 0.00004911   -14.77 pct    36.57 pct
+     5. Litecoin          LTC    $ 50.6216    $  2663179969.0   B 0.0116056     -2.72 pct    12.78 pct
+     6. IOTA              MIOTA  $ 0.885964   $  2462563768.0   B 0.00020312     5.27 pct   -12.46 pct
+     7. NEM               XEM    $ 0.260236   $  2342124000.0   B 0.00005966     3.12 pct     6.59 pct
+     8. Dash              DASH   $ 307.344    $  2308802567.0   B 0.0704623      4.82 pct    29.01 pct
+     9. NEO               NEO    $ 42.0855    $  2104275000.0   B 0.00964861     5.22 pct     6.77 pct
+    10. Ethereum Classic  ETC    $ 15.2255    $  1444211468.0   B 0.00349062    -0.79 pct     9.02 pct
+    11. Monero            XMR    $ 85.6222    $  1280362397.0   B 0.0196299     -7.29 pct    79.48 pct
+    12. BitConnect        BCC    $ 149.081    $   970975688.0   B 0.0341787     15.88 pct    26.03 pct
+    13. OmiseGo           OMG    $ 8.37799    $   823657154.0   B 0.00192075     3.52 pct     2.02 pct
+    14. Qtum              QTUM   $ 13.7082    $   808783800.0   B 0.00314276    16.21 pct     7.25 pct
+    15. Stratis           STRAT  $ 6.00972    $   592055272.0   B 0.0013778     -1.91 pct    -1.24 pct
+    16. Waves             WAVES  $ 5.13838    $   513838000.0   B 0.00117804    11.38 pct    12.58 pct
+    17. Zcash             ZEC    $ 230.32     $   468604754.0   B 0.0528035      0.74 pct    10.84 pct
+    18. Lisk              LSK    $ 3.92897    $   437515424.0   B 0.00090076    21.85 pct     88.7 pct
+    19. EOS               EOS    $ 1.38711    $   420904924.0   B 0.00031801    -1.05 pct    -9.13 pct
+    20. TenX              PAY    $ 3.61288    $   378128754.0   B 0.0008283      0.77 pct   -12.12 pct
+    21. BitShares         BTS    $ 0.134935   $   350605659.0   B 0.00003094    -2.23 pct     1.99 pct
+    22. Tether            USDT   $ 1.00343    $   320597208.0   B 0.00023005     0.19 pct     0.37 pct
+    23. Steem             STEEM  $ 1.26866    $   304406301.0   B 0.00029086      3.0 pct    14.23 pct
+    24. Binance Coin      BNB    $ 2.72997    $   272997000.0   B 0.00062588     4.35 pct    29.59 pct
+    25. Bytecoin          BCN    $ 0.00147701 $   270667303.0   B 0.00000034     8.58 pct    14.86 pct
+
+        COIN              SYMBOL PRICE        MARKET CAP        BTC PRICE         24HR CH      7DAY CH
 ```
-
-ROADMAP: Future plans include...
-
-- using `bc` for rounding of large numbers
-- using `awk` to improve formatting of output (column and/or tab separated)
