@@ -21,8 +21,8 @@ mapfile -t aP7D  < <( jq -r '.[] | .percent_change_7d' top25.json )
 
 # DISPLAY TOP 25 COINS BY MARKET CAP
 
-header="%7s %-17s %-6s %-12s %-17s %-13s %11s %12s\n"
-format="%-17s %-6s %-1s %-10s %-1s %13s %3s %-10s %12s %12s\n"
+header="%7s %-22s %-6s %-12s %-17s %-13s %11s %12s\n"
+format="%-22s %-6s %-1s %-10s %-1s %13s %3s %-10s %12s %12s\n"
 printf "\n"
 printf "$header" "RANK" "COIN" "SYMBOL" "PRICE" "MARKET CAP" "BTC PRICE" "24HR CH" "7DAY CH"
 printf "\n"
