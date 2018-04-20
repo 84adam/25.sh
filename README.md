@@ -13,9 +13,8 @@ REQUIRED PACKAGES:
 
 INSTRUCTIONS:
 
-+ Download: `wget https://github.com/84adam/25.sh/archive/master.zip`
-+ Unzip: `unzip master.zip`
-+ Enter directory: `cd 25.sh-master/`
++ Download: `git clone https://github.com/84adam/25.sh.git`
++ Enter directory: `cd 25.sh/`
 + Make executable: `chmod +x 25.sh`
 + **Run it: `./25.sh`**
 
