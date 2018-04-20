@@ -1,5 +1,10 @@
 #!/bin/bash
 
+# CHECK DEPENDENCIES
+
+command -v jq >/dev/null 2>&1 || { echo >&2 "Please install dependency, 'jq', and try again. Ex. \`$ sudo [dnf|apt|yum|zypper] install jq\`"; exit 1; }
+command -v curl >/dev/null 2>&1 || { echo >&2 "Please install dependency, 'curl', and try again. Ex. \`$ sudo [dnf|apt|yum|zypper] install curl\`"; exit 1; }
+
 # DOWNLOAD TOP 25 CRYPTOCURRENCY PRICE DATA FROM COINMARKETCAP.COM USING 'curl'
 
 headerSRC="%7s %50s %5s"
